@@ -8,6 +8,8 @@ import {
 import * as React from "react";
 import { ThemeProvider } from "next-themes";
 import { LanguageProvider, useTranslation } from "@/contexts/language-context";
+import { TanStackRouterDevtools } from "@tanstack/react-router-devtools";
+import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 const isDev = process.env.NODE_ENV === "development";
 
 export const Route = createRootRouteWithContext<{
@@ -79,6 +81,8 @@ function RootComponent() {
         }}
       >
         <Outlet />
+        <TanStackRouterDevtools initialIsOpen={false} />
+        <ReactQueryDevtools initialIsOpen={false} />
       </div>
     </RootDocument>
   );
