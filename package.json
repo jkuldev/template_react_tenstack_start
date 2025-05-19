@@ -4,13 +4,17 @@
   "description": "",
   "private": true,
   "scripts": {
-    "dev": "vinxi dev",
+    "dev": "npx convex dev --once; npm-run-all --parallel dev:convex dev:start",
+    "dev:convex": "convex dev",
+    "dev:start": "vinxi dev",
+    "seed": "npx convex dev --once; npx convex import --table tasks sampleData.jsonl",
     "build": "vinxi build",
     "start": "vinxi start"
   },
   "keywords": [],
   "author": "",
   "dependencies": {
+    "@convex-dev/react-query": "^0.0.0-alpha.8",
     "@radix-ui/react-dialog": "^1.1.13",
     "@radix-ui/react-dropdown-menu": "^2.1.10",
     "@radix-ui/react-label": "^2.1.4",
@@ -35,6 +39,7 @@
     "@tanstack/start-server-functions-ssr": "^1.110.2",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "convex": "^1.23.0",
     "framer-motion": "^12.7.4",
     "lucide-react": "^0.488.0",
     "next-themes": "latest",
