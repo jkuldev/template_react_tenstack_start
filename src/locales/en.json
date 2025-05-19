@@ -1,0 +1,70 @@
+{
+  "navigation": {
+    "home": "Home",
+    "projects": "Projects",
+    "tasks": "Tasks",
+    "settings": "Settings",
+    "documentation": "Documentation",
+    "dashboard": "Dashboard"
+  },
+  "theme": {
+    "toggle": "Toggle theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "notFound": "Page not found",
+    "notFoundDescription": "The page you're looking for doesn't exist."
+  },
+  "navbar": {
+    "product": "Product",
+    "dashboard": "Dashboard",
+    "tanstackSuite": "TanStack Suite",
+    "tanstackSuiteDescription": "A comprehensive suite of tools for modern web development.",
+    "query": "Query",
+    "queryDescription": "Powerful data fetching and caching for your applications.",
+    "table": "Table",
+    "tableDescription": "Advanced table management and data visualization.",
+    "router": "Router",
+    "routerDescription": "Flexible routing solutions for your web applications.",
+    "docs": "Docs",
+    "changelog": "Changelog",
+    "pricing": "Pricing",
+    "company": "Company",
+    "about": "About",
+    "blog": "Blog",
+    "careers": "Careers",
+    "signIn": "Sign In",
+    "startBuilding": "Start Building",
+    "apps": "Apps"
+  },
+  "dashboard": {
+    "buildingYourApplication": "Building Your Application",
+    "dataFetching": "Data Fetching",
+    "dataCaching": "Data Caching",
+    "dataVisualization": "Data Visualization",
+    "dataAnalysis": "Data Analysis",
+    "dataProcessing": "Data Processing",
+    "dashboard": "Dashboard"
+  },
+  "sidebar": {
+    "platform": "Platform",
+    "playground": "Playground",
+    "history": "History",
+    "starred": "Starred",
+    "settings": "Settings",
+    "models": "Models",
+    "profile": "Profile",
+    "account": "Account",
+    "signOut": "Sign Out",
+    "dashboard": "Dashboard",
+    "projects": "Projects",
+    "tasks": "Tasks",
+    "documentation": "Documentation",
+    "manageMembers": "Manage Members",
+    "organizationSettings": "Organization Settings"
+  }
+} 

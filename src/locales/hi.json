@@ -1,0 +1,42 @@
+{
+  "navigation": {
+    "home": "होम",
+    "projects": "प्रोजेक्ट्स",
+    "tasks": "कार्य",
+    "settings": "सेटिंग्स",
+    "documentation": "दस्तावेज़ीकरण",
+    "dashboard": "डैशबोर्ड"
+  },
+  "theme": {
+    "toggle": "थीम बदलें",
+    "light": "लाइट",
+    "dark": "डार्क",
+    "system": "सिस्टम"
+  },
+  "common": {
+    "loading": "लोड हो रहा है...",
+    "error": "त्रुटि",
+    "notFound": "पेज नहीं मिला",
+    "notFoundDescription": "आप जिस पेज की तलाश कर रहे हैं वह मौजूद नहीं है।"
+  },
+  "navbar": {
+    "product": "उत्पाद",
+    "tanstackSuite": "टैनस्टैक सूट",
+    "tanstackSuiteDescription": "आधुनिक वेब विकास के लिए उपकरणों का एक व्यापक सूट।",
+    "query": "प्रश्न",
+    "queryDescription": "आपके अनुप्रयोगों के लिए शक्तिशाली डेटा प्राप्ति और कैशिंग।",
+    "table": "तालिका",
+    "tableDescription": "उन्नत तालिका प्रबंधन और डेटा दृश्यता।",
+    "router": "राउटर",
+    "routerDescription": "आपके वेब अनुप्रयोगों के लिए लचीले रूटिंग समाधान।",
+    "docs": "दस्तावेज़",
+    "changelog": "परिवर्तन सूची",
+    "pricing": "मूल्य निर्धारण",
+    "company": "कंपनी",
+    "about": "के बारे में",
+    "blog": "ब्लॉग",
+    "careers": "करियर",
+    "signIn": "साइन इन करें",
+    "startBuilding": "निर्माण शुरू करें"
+  }
+} 
